@@ -4,7 +4,8 @@
   "description": "Server for Sehat Yuk Web App",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [
     "Sehat",
