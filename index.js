@@ -14,6 +14,6 @@ app.use(cors());
 
 const health = require('./controllers/Health');
 
-app.use('/api/v1/', health);
+app.use('/v1/', health);
 
 http.listen(PORT, () => console.log(`App running in port ${PORT}`));
